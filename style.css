@@ -1,6 +1,6 @@
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
-    padding: 0;
     font-size: 15PX;
     color: #ffff;
     background-color: #79a7d3;
@@ -61,6 +61,7 @@ body {
     cursor: pointer;
     border-radius: 10px;
     border: 2px solid #08038c;
+    margin: 10px;
 }
 
 .next-btn:hover {
@@ -71,6 +72,6 @@ body {
 .result {
     height: 100px;
     background-color: #08038c;
-    color: #0000;
+    color: #f6f6f6;
 }
 
