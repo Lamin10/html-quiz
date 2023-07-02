@@ -6,3 +6,4 @@ and after the heading is the score are which increases with every correct answer
 from the options and decrease on every wrong answer.
 And then come the options area which consist of four options to choose from.
 Lastly come the next button which moves to the next question
+image/html-quiz.png
