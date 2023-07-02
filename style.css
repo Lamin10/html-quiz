@@ -13,8 +13,8 @@ body {
 /* Styling the Main dive element */
 .container {
     background-color: #8a307f;
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     margin-top: 60px;
     box-shadow: 5px 5px #08038c;
     display: flex;
@@ -94,32 +94,5 @@ label {
 
 /* responsive design*/
 
-@media screen and (min-width: 375px) {
-  .container {
-    height: 300px;
-    width: 300px;
-    margin-top: 60px;
-  }
 
-  .option {
-    margin: 10px;
-    padding: 6px;
-    height: 60px;
-    width: 350px;
-    font-size: 1.5em;
-    border-radius: 5px;
-}
-
-.question {
-    width: 290px;
-    font-size: 1.8em;
-}
-
-.next-btn{
-    width: 250px;
-    height: 60px;
-    font-size: 1.8em;
-    padding: 10px;
-}
-}
 
