@@ -49,4 +49,35 @@ JavaScript 65.0% of the application.
 #### HTML VALIDATION
 No error was found when testing the html file file for bugs
 
-![]()
+![WC3 HTML validation result](html-validator.png)
+
+### WC3 CSS VALIDATION
+During the validation of the CSS file it was discovered that at line 62 
+there was an error and it was found out that the color property of the options 
+area on hoover was missing a hastag on the color value
+
+![CSS validation result 1](css-validator-error.png)
+
+After debugging the error ie adding the hastag symbol to the color value on 
+line 62 there were no more errors in the css file
+
+![CSS validation result 2](css-validato-correct.png)
+
+### SEO TESTING
+
+#### LIGHT HOUSE SEO RESULT ON MOBILE
+
+![Mobile SEO result](mobile-performance.png)
+
+#### LIGHT HOUSE SEO RESULT ON DESKTOP
+
+![Desktop SEO result](desktop-performance.png)
+
+## CREDITS
+
+### CONTENTS
+#### VISUAL STUDIO CODE
+All the code for this quiz application was done in Visual studio code and 
+and then transfered to Codeanywhere by copying and pasting 
+
+
