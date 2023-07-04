@@ -81,8 +81,8 @@ All the code for this quiz application was done in Visual studio code and
 and then transfered to Codeanywhere by copying and pasting 
 
 #### GITHUB
-Github is the hosting platform for thisquiz app project it is the platform
-for storing and tracking and version control [GitHub Pages](https://pages.github.com/).
+[GitHub Pages](https://pages.github.com/). is the hosting platform for this quiz app project it is the platform
+for storing, tracking and version control.
 
 #### CODEANYWHERE
 The project is been completed in this cross platform Cloud IDE
