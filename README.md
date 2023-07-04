@@ -91,13 +91,13 @@ The project is been completed in this cross platform Cloud IDE
 The fonts for the quiz app was taken from google fonts
 
 #### COLORS
-BODY: 79a7d3.
-FONT-COLORS: #ffff.
-MAIN CONTAINER: #8a307f.
-QUESTION AREA: #6883bc.
-OPTIONS AREA: #79a7d3.
-OPTION HOOVER: #08038c.
-BUTTON: Transparent.
-BUTTON HOOVER:#08038c.
+**BODY:** 79a7d3.
+**FONT-COLORS:** #ffff.
+**MAIN CONTAINER:** #8a307f.
+**QUESTION AREA:** #6883bc.
+**OPTIONS AREA:** #79a7d3.
+**OPTION HOOVER:** #08038c.
+**BUTTON:** Transparent.
+**BUTTON HOOVER:** #08038c.
 
 
