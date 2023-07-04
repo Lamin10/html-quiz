@@ -80,4 +80,24 @@ line 62 there were no more errors in the css file
 All the code for this quiz application was done in Visual studio code and 
 and then transfered to Codeanywhere by copying and pasting 
 
+#### GITHUB
+Github is the hosting platform for thisquiz app project it is the platform
+for storing and tracking and version control
+
+#### CODEANYWHERE
+The project is been completed in this cross platform Cloud IDE
+
+#### FONTS
+The fonts for the quiz app was taken from google fonts
+
+#### COLORS
+BODY: 79a7d3.
+FONT-COLORS: #ffff.
+MAIN CONTAINER: #8a307f.
+QUESTION AREA: #6883bc.
+OPTIONS AREA: #79a7d3.
+OPTION HOOVER: #08038c.
+BUTTON: Transparent.
+BUTTON HOOVER:#08038c.
+
 
