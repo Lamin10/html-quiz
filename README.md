@@ -108,4 +108,21 @@ The fonts for the quiz app was taken from google fonts
 
 **BUTTON HOOVER:** #08038c.
 
+### DEPLOYMENT
+The quiz app was deployed to Github pages by going through the following steps.
+
++ Clicking the setting tab on the Github repository.
+
++ Scrolling down to pages and clicking on it.
+
++ Navigate to the source and select **main** as the branch to enable the Github page
+
++ and clicked save.
+
++ An the page was refreshed after some minutes the site was set for publishing.
+
++ Clicked on the link provided and the site was life.
++ and clicked save.
++ and click save
+
 
