@@ -13,9 +13,10 @@ body {
 /* Styling the Main dive element */
 .container {
     background-color: #8a307f;
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 550px;
     margin-top: 60px;
+    padding-top: 30px;
     box-shadow: 5px 5px #08038c;
     display: flex;
     flex-direction: column;
@@ -52,6 +53,8 @@ body {
     width: 400px;
     background-color: #79a7d3;
     font-size: 1.3em;
+    text-align: center;
+    padding: 10px;
 }
 
 .option:hover {
@@ -93,6 +96,72 @@ label {
 }
 
 /* responsive design*/
+
+
+@media screen and (max-width: 280px) {
+    .container {
+      height: 600px;
+      width: 360px;
+      margin-top: 60px;
+    }
+
+    .title {
+        font-size: 2em;
+    }
+  
+    .option {
+      height: 60px;
+      width: 230px;
+     
+  }
+  
+  .question {
+      width: 190px;
+      height: 35px;
+      text-align: center;
+  }
+  
+  .next-btn{
+    width: 210px;
+    height: 60px;
+    font-size: 1.2em;
+  }
+  
+ 
+  }
+
+@media screen and (max-width: 375px) {
+  .container {
+    height: 600px;
+    width: 360px;
+    margin-top: 60px;
+  }
+
+  .option {
+    margin: 10px;
+    padding: 6px;
+    height: 60px;
+    width: 330px;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+
+.question {
+    width: 280px;
+    font-size: 1.8em;
+}
+
+.next-btn{
+    width: 230px;
+    height: 60px;
+    font-size: 1.8em;
+    padding: 10px;
+}
+
+#score {
+    font-size: 1.5em;
+}
+}
 
 
 
