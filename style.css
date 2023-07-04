@@ -13,7 +13,7 @@ body {
 /* Styling the Main dive element */
 .container {
     background-color: #8a307f;
-    height: 500px;
+    height: 550px;
     width: 550px;
     margin-top: 60px;
     padding-top: 30px;
@@ -34,12 +34,14 @@ body {
 
 .question {
     width: 355px;
+    height: 80px;
     background-color: #6883bc;
     padding: 30px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     border-radius: 20px;
     margin: 5px 0 5px 0;
     color: #f6f6f6;
+    text-align: center;
 
 }
 
