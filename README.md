@@ -43,3 +43,10 @@ CSS made up 18.3% of the application.
 JavaScript 65.0% of the application.
 
 ![HTML CSS and JavaScript language](image/languages.png)
+
+### WC3 VALIDATOR
+
+#### HTML VALIDATION
+No error was found when testing the html file file for bugs
+
+![]()
