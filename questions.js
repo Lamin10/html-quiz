@@ -2,7 +2,7 @@
     "question": "What is HTML?",
     "option1": "HighText Markup Language",
     "option2": "HyperText Markup Language",
-    "option3": "hyperText Made Lines",
+    "option3": "HyperText Made Lines",
     "option4": "HyperTax markup lines",
     "answer": "2"
 },
