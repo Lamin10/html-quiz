@@ -63,36 +63,22 @@ nextButton.addEventListener("click", loadNextQuestion);
 
 
 function restartQuiz() {
+    resultCont.style.display = "none";
+    container.style.display = "block";
     currentQuestion = 0;
     score = 0;
     scoreEl.innerHTML = "Score: 0";
-    container.style.display = "block";
-    resultCont.style.display = "none";
     restartQuizButton.style.display = "none"; // Hide the restart button
-    //nextButton.textContent = "Next Question";
+    nextButton.textContent = "Next Question";
     loadQuestion(currentQuestion);
 }
 
 
 function createRestartButton() {
     let restartQuizButton = document.createElement("button");
-    //restartQuizButton.id = "restart-btn";
     restartQuizButton.innerText = "Restart Quiz";
     restartQuizButton.classList.add("restart-btn");
-    restartQuizButton.addEventListener("click", restartQuiz);
-
     resultCont.appendChild(restartQuizButton);
+    restartQuizButton.addEventListener("click", restartQuiz);
+  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

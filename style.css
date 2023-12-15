@@ -93,7 +93,6 @@ label {
 }
 
 .restart-btn {
-    display: none;
     color: #ffff;
     background-color: transparent;
     width: 92%;
@@ -108,7 +107,7 @@ label {
 /* The result div */
 
 .result {
-    height: 100px;
+    height: 150px;
     padding-top: 50px;
     background-color: #08038c;
     color: #fff;
