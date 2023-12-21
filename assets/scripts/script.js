@@ -13,6 +13,7 @@ const opt4 = document.getElementById("opt4");
 const nextButton = document.getElementById("nextButton");
 const resultCont = document.getElementById("result");
 const scoreEl = document.getElementById("score");
+const restartQuizButton = document.createElement("button");
 
 /* The loadQuestions function */
 
@@ -44,12 +45,15 @@ function loadNextQuestion() {
     currentQuestion++;
     if (currentQuestion == totalQuestions - 1) {
         nextButton.textContent = "Quiz Over";
-        restartQuizButton.style.display = "block"; // Show the restart button
+       // createRestartButton();
+       
     }
+
+    // Load the resultcontainer when the Quiz is over //
     if (currentQuestion == totalQuestions) {
         container.style.display = "none";
         resultCont.style.display = "";
-        resultCont.textContent = "Your Score: " + score + "/" + questions.length;
+        resultCont.innerHTML = `<p>"Your Score: ${score}/${questions.length}</p>`;
         createRestartButton();
         return;
     }
@@ -60,11 +64,11 @@ loadQuestion(currentQuestion);
 
 nextButton.addEventListener("click", loadNextQuestion);
 
-
+// Restart quiz function //
 
 function restartQuiz() {
     resultCont.style.display = "none";
-    container.style.display = "block";
+    container.style.display = "";
     currentQuestion = 0;
     score = 0;
     scoreEl.innerHTML = "Score: 0";
@@ -73,12 +77,10 @@ function restartQuiz() {
     loadQuestion(currentQuestion);
 }
 
+// Function to create the Restart Quiz button //
 
 function createRestartButton() {
-    let restartQuizButton = document.createElement("button");
-    restartQuizButton.innerText = "Restart Quiz";
-    restartQuizButton.classList.add("restart-btn");
-    resultCont.appendChild(restartQuizButton);
-    restartQuizButton.addEventListener("click", restartQuiz);
-  
-}
+     restartQuizButton.innerText = "Restart Quiz";
+     restartQuizButton.classList.add("restart-btn");
+     resultCont.appendChild(restartQuizButton);
+     restartQuizButton.addEventListener("click", restartQuiz);}

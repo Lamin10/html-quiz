@@ -14,7 +14,7 @@ body {
 /* Styling the Main dive element */
 .container {
     background-color: #8a307f;
-    height: 700px;
+    height: 700;
     width: 50%;
     margin: 40px auto;
     padding-top: 30px;
@@ -92,6 +92,18 @@ label {
     color: #f6f6f6;
 }
 
+/* The result div */
+
+.result {
+    height: 100px;
+    padding-top: 50px;
+    background-color: #08038c;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Restart Quiz Button*/
 .restart-btn {
     color: #ffff;
     background-color: transparent;
@@ -102,17 +114,6 @@ label {
     border: 2px solid #ffffff;
     margin: 10px;
     font-size: 1.3em;
-}
-
-/* The result div */
-
-.result {
-    height: 150px;
-    padding-top: 50px;
-    background-color: #08038c;
-    color: #fff;
-    text-align: center;
-    border-radius: 10px;
 }
 
 /* responsive design*/
@@ -459,6 +460,3 @@ label {
   
  
   }
-
-
-
