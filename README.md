@@ -1,4 +1,4 @@
-![I am responsive](assets/image/responsive.png.png)
+![I am responsive](assets/image/responsive-png.png)
 
 # html-quiz
 HTML QUIZ is a quiz application about basic HTML.
@@ -44,7 +44,7 @@ HTML made up 16.7% of the application.
 CSS made up 18.3% of the application.
 JavaScript 65.0% of the application.
 
-![HTML CSS and JavaScript language](assets/image/languages.png)
+![HTML CSS and JavaScript language](assets/image/Languages.png)
 
 ### WC3 VALIDATOR
 
