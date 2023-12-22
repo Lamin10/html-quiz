@@ -14,7 +14,7 @@ body {
 /* Styling the Main dive element */
 .container {
     background-color: #8a307f;
-    height: 700;
+    height: 650px;
     width: 50%;
     margin: 40px auto;
     padding-top: 30px;
@@ -26,6 +26,8 @@ body {
     align-items: center
 }
 
+/* Score h4 element */
+
 #score {
     color: #ffff;
     font-size: 2em;
@@ -34,6 +36,8 @@ body {
 .title {
     font-size: 40px;
 }
+
+/* Questions div container*/
 
 .question {
     width: 85%;
@@ -92,7 +96,7 @@ label {
     color: #f6f6f6;
 }
 
-/* The result div */
+/* The result div container */
 
 .result {
     height: 100px;
@@ -393,6 +397,7 @@ label {
 
 @media screen and (max-width: 360px) {
     .container {
+        overflow: hidden;
         height: 700px;
         width: 100%;
       }
@@ -431,6 +436,7 @@ label {
 
 @media screen and (max-width: 280px) {
     .container {
+      overflow: hidden;
       height: 600px;
       width: 360px;
       margin-top: 60px;

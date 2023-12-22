@@ -72,7 +72,6 @@ function restartQuiz() {
     currentQuestion = 0;
     score = 0;
     scoreEl.innerHTML = "Score: 0";
-    restartQuizButton.style.display = "none"; // Hide the restart button
     nextButton.textContent = "Next Question";
     loadQuestion(currentQuestion);
 }
